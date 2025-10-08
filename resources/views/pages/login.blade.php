@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @extends('components.layout.app')
 
 @section('title', 'Login - Minha Loja')

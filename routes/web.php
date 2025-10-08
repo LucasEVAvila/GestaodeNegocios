@@ -33,3 +33,4 @@ route::get('/insert', [AdminInsertController::class, 'adminInsert' ])->name('adm
 route::get('/editprodutos', [AdminEditController::class, 'adminEdit' ])->name('adminEdit');
 route::get('/dashboard', [AdminDashboardController::class, 'adminDashboard' ])->name('adminDashboard');
 });
+

@@ -8,5 +8,6 @@ class AdminController extends Controller
 {
     public function adminLogin(){
         return view('pages.adminLogin');
+
     }
 }
