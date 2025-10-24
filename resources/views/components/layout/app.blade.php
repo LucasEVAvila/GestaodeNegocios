@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
+
 <html lang="{{ str_replace('_','-', app()->getLocale()) }}">
-=======
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
+
     <title>{{ $title ?? 'Minha Loja' }}</title>
 
 
@@ -93,22 +93,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     @yield('scripts')
-=======
-    <title>{{ $title ?? 'Meu Site Laravel' }}</title>
-
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-</head>
-<body class="bg-light">
-    
-    <x-layout.navbar />
-    
-
-    <main class="container my-5">
-        {{ $slot }}
-    </main>
-
-    <x-layout.footer  />
->>>>>>> 2c30a26 (feat: add example)
-</body>
-</html>

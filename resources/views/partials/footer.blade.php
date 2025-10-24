@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <footer class="mt-5">
     <div class="container">
         <div class="row">

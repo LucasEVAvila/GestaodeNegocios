@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @extends('components.layout.app')
 
 @section('title', 'Sobre Nós - Minha Loja')
